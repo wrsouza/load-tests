@@ -1,3 +1,5 @@
+import "./config/otel";
+
 import { faker } from "@faker-js/faker";
 import express, { Request, Response } from "express";
 import { Repository } from "typeorm";

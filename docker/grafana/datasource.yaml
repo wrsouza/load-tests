@@ -7,3 +7,15 @@ datasources:
     database: k6
     url: http://influxdb:8086
     isDefault: true
+
+  - name: Prometheus
+    type: prometheus
+    uid: prometheus
+    access: proxy
+    url: http://prometheus:9090
+    jsonData:
+      timeInterval: 10s
+    basicAuth: false
+    isDefault: false
+    version: 1
+    editable: false
