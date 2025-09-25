@@ -15,8 +15,8 @@ const metricExporter = new OTLPMetricExporter(options);
 const traceExporter = new OTLPTraceExporter(options);
 const metricReader = new PeriodicExportingMetricReader({
   exporter: metricExporter,
-  exportIntervalMillis: 30000,
-  exportTimeoutMillis: 30000,
+  exportIntervalMillis: 5000,
+  exportTimeoutMillis: 5000,
 });
 
 const sdk = new NodeSDK({

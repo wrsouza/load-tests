@@ -6,9 +6,9 @@ export const options = {
   //vus: 150,
   //duration: "60s",
   stages: [
-    { duration: "10s", target: 50 },
-    { duration: "60s", target: 50 },
-    { duration: "10s", target: 0 },
+    { duration: "30s", target: 50 },
+    { duration: "120s", target: 50 },
+    { duration: "30s", target: 0 },
   ],
 };
 
